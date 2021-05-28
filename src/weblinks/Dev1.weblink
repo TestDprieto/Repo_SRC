@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomPageWebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <availability>online</availability>
+    <displayType>link</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <height>600</height>
+    <linkType>url</linkType>
+    <masterLabel>Dev1</masterLabel>
+    <openType>sidebar</openType>
+    <protected>false</protected>
+    <url>https://copado-support-diego-dev-ed--copado.visualforce.com/apex/viewOrg?id=a0b1t000000TkFA&amp;sfdc.override=1</url>
+</CustomPageWebLink>
