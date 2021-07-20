@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Dinner</members>
-        <name>CustomLabel</name>
+        <members>matias_Test_1</members>
+        <name>Letterhead</name>
     </types>
-    <types>
-        <members>fr</members>
-        <name>Translations</name>
-    </types>
-    <version>51.0</version>
+    <version>52.0</version>
 </Package>
