@@ -11,6 +11,10 @@
         <objectMapping>
             <inputObject>Lead</inputObject>
             <mappingFields>
+                <inputField>Title</inputField>
+                <outputField>Title</outputField>
+            </mappingFields>
+            <mappingFields>
                 <inputField>FirstName</inputField>
                 <outputField>FirstName</outputField>
             </mappingFields>
@@ -39,10 +43,6 @@
                 <outputField>MailingPostalCode</outputField>
             </mappingFields>
             <mappingFields>
-                <inputField>Title</inputField>
-                <outputField>Title</outputField>
-            </mappingFields>
-            <mappingFields>
                 <inputField>Company</inputField>
                 <outputField>AccountId</outputField>
             </mappingFields>
@@ -55,5 +55,5 @@
     <operationsOnInsert>Report</operationsOnInsert>
     <operationsOnUpdate>Report</operationsOnUpdate>
     <securityOption>EnforceSharingRules</securityOption>
-    <sortOrder>1</sortOrder>
+    <sortOrder>2</sortOrder>
 </DuplicateRule>

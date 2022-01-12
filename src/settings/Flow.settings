@@ -3,7 +3,7 @@
     <canDebugFlowAsAnotherUser>false</canDebugFlowAsAnotherUser>
     <doesEnforceApexCpuTimeLimit>false</doesEnforceApexCpuTimeLimit>
     <doesFormulaEnforceDataAccess>true</doesFormulaEnforceDataAccess>
-    <doesFormulaGenerateHtmlOutput>false</doesFormulaGenerateHtmlOutput>
+    <doesFormulaGenerateHtmlOutput>true</doesFormulaGenerateHtmlOutput>
     <enableFlowBREncodedFixEnabled>true</enableFlowBREncodedFixEnabled>
     <enableFlowCustomPropertyEditor>false</enableFlowCustomPropertyEditor>
     <enableFlowDeployAsActiveEnabled>false</enableFlowDeployAsActiveEnabled>
@@ -13,11 +13,11 @@
     <enableFlowNullPreviousValueFix>false</enableFlowNullPreviousValueFix>
     <enableFlowPauseEnabled>false</enableFlowPauseEnabled>
     <enableFlowUseApexExceptionEmail>false</enableFlowUseApexExceptionEmail>
-    <enableLightningRuntimeEnabled>false</enableLightningRuntimeEnabled>
-    <isAccessToInvokedApexRequired>true</isAccessToInvokedApexRequired>
+    <enableLightningRuntimeEnabled>true</enableLightningRuntimeEnabled>
+    <isAccessToInvokedApexRequired>false</isAccessToInvokedApexRequired>
     <isApexPluginAccessModifierRespected>true</isApexPluginAccessModifierRespected>
     <isEnhancedFlowListViewVisible>true</isEnhancedFlowListViewVisible>
     <isFlowApexContextRetired>false</isFlowApexContextRetired>
     <isManageFlowRequiredForAutomationCharts>false</isManageFlowRequiredForAutomationCharts>
-    <isTimeResumedInSameRunContext>false</isTimeResumedInSameRunContext>
+    <isTimeResumedInSameRunContext>true</isTimeResumedInSameRunContext>
 </FlowSettings>
