@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Dinner</members>
-        <name>CustomLabel</name>
+        <members>LOAComplianceReport</members>
+        <members>LOAComplianceReport/LOA_Compliance_Report_i4s</members>
+        <name>Report</name>
     </types>
-    <types>
-        <members>fr</members>
-        <name>Translations</name>
-    </types>
-    <version>51.0</version>
+    <version>54.0</version>
 </Package>
