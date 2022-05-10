@@ -1,10 +1,10 @@
 #package.xml file is recreated on the fly by Copado, no need to track unnecessary changes of this file
-#package.xml
+package.xml
 
 #Managed packages can trigger the installation or uninstallation of applications, it is  
 #recommended to manage this outside git
 
-#installedPackages/*
+installedPackages/*
 
 #if you are not customizing a managed package, you can keep your repository clean by ignoring 
 #all files for that package. For example, to ignore all files of the "Copado" managed package
@@ -15,9 +15,175 @@
 #It is recommended that you ignore managed components that cannot be modified 
 #since there is no need to track them in Git, like for example:
 
+#Managed package: Copado
 classes/copado__*
 triggers/copado__*
 pages/copado__*
+components/copado__*
+aura/copado__*
+
+#Managed package: Big Machines (CPQ)
+classes/BigMachines__*
+triggers/BigMachines__*
+pages/BigMachines__*
+components/BigMachines__*
+aura/BigMachines__*
+
+#Managed package: Email Attachment
+classes/CRMG_EmailAtt__*
+triggers/CRMG_EmailAtt__*
+pages/CRMG_EmailAtt__*
+components/CRMG_EmailAtt__*
+aura/CRMG_EmailAtt__*
+
+#Managed package: Drag Drop and Attach
+classes/DragDropAttach__*
+triggers/DragDropAttach__*
+pages/DragDropAttach__*
+components/DragDropAttach__*
+aura/DragDropAttach__*
+
+#Managed package: Field Trip
+classes/Field_Trip__*
+triggers/Field_Trip__*
+pages/Field_Trip__*
+components/Field_Trip__*
+aura/Field_Trip__*
+
+#Managed package: Inspect THIS!
+classes/InspectTHIS__*
+triggers/InspectTHIS__*
+pages/InspectTHIS__*
+components/InspectTHIS__*
+aura/InspectTHIS__*
+
+#Managed package: Drawloop
+classes/Loop__*
+triggers/Loop__*
+pages/Loop__*
+components/Loop__*
+aura/Loop__*
+
+#Managed package: Metadata Search
+classes/MetaDataSearch__*
+triggers/MetaDataSearch__*
+pages/MetaDataSearch__*
+components/MetaDataSearch__*
+aura/MetaDataSearch__*
+
+#Managed package: NewVoiceMedia ContactWorld
+classes/NVMContactWorld__*
+triggers/NVMContactWorld__*
+pages/NVMContactWorld__*
+classes/NVMStatsSF__*
+triggers/NVMStatsSF__*
+pages/NVMStatsSF__*
+components/NVMStatsSF__*
+aura/NVMStatsSF__*
+
+#Managed package: Salesforce CPQ and Advanced Approvals
+classes/SBQQ__*
+triggers/SBQQ__*
+pages/SBQQ__*
+classes/sbaa__*
+triggers/sbaa__*
+pages/sbaa__*
+components/sbaa__*
+aura/sbaa__*
+
+#Managed package: CalendarAnything
+classes/SLCA2__*
+triggers/SLCA2__*
+pages/SLCA2__*
+classes/casf1__*
+triggers/casf1__*
+pages/casf1__*
+components/SLCA2__*
+aura/SLCA2__*
+
+#Managed package: ServiceMax 
+classes/SVMXC__*
+triggers/SVMXC__*
+pages/SVMXC__*
+components/SVMXC__*
+aura/SVMXC__*
+
+#Managed package: aha! Integration 
+classes/ahaapp__*
+triggers/ahaapp__*
+pages/ahaapp__*
+components/ahaapp__*
+aura/ahaapp__*
+
+#Managed package: Download Attachments as Zip
+classes/attachmentzip__*
+triggers/attachmentzip__*
+pages/attachmentzip__*
+components/attachmentzip__*
+aura/attachmentzip__*
+
+#Managed package: Ideas for community
+classes/bedrock__*
+triggers/bedrock__*
+pages/bedrock__*
+components/bedrock__*
+aura/bedrock__*
+
+#Managed package: Communities Management
+classes/ca_collab_2_0__*
+triggers/ca_collab_2_0__*
+pages/ca_collab_2_0__*
+components/ca_collab_2_0__*
+aura/ca_collab_2_0__*
+
+#Managed package: Forecasting SF1
+classes/forecasting_s1__*
+triggers/forecasting_s1__*
+pages/forecasting_s1__*
+components/forecasting_s1__*
+aura/forecasting_s1__*
+
+#Managed package: Improved Help 
+classes/iahelp__*
+triggers/iahelp__*
+pages/iahelp__*
+components/iahelp__*
+aura/iahelp__*
+
+#Managed package: Improved Noticeboard 
+classes/ianb__*
+triggers/ianb__*
+pages/ianb__*
+components/ianb__*
+aura/ianb__*
+
+#Managed package: AddressTools Free
+classes/pw_cc__*
+triggers/pw_cc__*
+pages/pw_cc__*
+components/pw_cc__*
+aura/pw_cc__*
+
+#Managed package: SFIQ Inbox
+classes/relateiq__*
+triggers/relateiq__*
+pages/relateiq__*
+components/relateiq__*
+aura/relateiq__*
+
+#Managed package: Silverpop
+classes/silverpop__*
+triggers/silverpop__*
+pages/silverpop__*
+components/silverpop__*
+aura/silverpop__*
+
+#Managed package: Salesforce Marketing Cloud
+classes/et4ae5__*
+triggers/et4ae5__*
+pages/et4ae5__*
+components/et4ae5__*
+aura/et4ae5__*
 
 #Translations are complex since get updated indirectly across multiple files, they can make a deployment fail
 #if a field is translated in source and it doesn't exist on destination. 
@@ -33,3 +199,6 @@ pages/copado__*
 
 # sites/*
 # siteDotComSites/*
+
+# Documents are excluded for the initial setup
+documents/**
